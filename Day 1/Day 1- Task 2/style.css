@@ -44,3 +44,8 @@ li {
 .normal{
     color: white;
 }
+
+.border-line{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
