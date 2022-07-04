@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(211, 204, 204);
+}
+
+.containers {
+    float: left;
+    width: 400px;
+    padding: 5px;
+}
+
+.box {
+    background: #282441;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.green {
+    background: #248575;
+    color: white;
+    font-size: 35px;
+}
+
+li {
+    padding: 20px;
+    text-align: center;
+}
+
+.blue {
+    background: #47538f;
+    font-size: 35px;
+    color: white;
+}
+
+.price{
+    font-size: 35px;
+    color: white;   
+}
+
+.normal{
+    color: white;
+}

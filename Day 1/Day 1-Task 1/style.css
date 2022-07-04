@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    width: fit-content;
+}
+
+.main{
+    background: linear-gradient(rgb(56, 17, 17),rgb(77, 29, 29));
+    color: white;
+}
+
+.code-name{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+table{
+    padding: 20px;
+}
+
+td{
+    padding: 20px;
+}
+
+.heading{
+    font-weight: bolder;
+    font-size: 80px;
+}
