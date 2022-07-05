@@ -1,0 +1,47 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background: rgb(149, 149, 221);
+}
+
+table{
+    border-spacing: 50px;
+}
+
+.heading{
+    color: aliceblue;
+    text-align: center; 
+}
+
+.main-form{
+    background: rgb(250, 250, 250);
+    color:rgb(10, 9, 7);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+    margin-right: 700px;
+
+}
+
+.footer{
+    color:rgb(181, 233, 161);
+}
+
+.submit-button{
+    background-color : green;
+    color : white;
+    padding: 15px 32px;
+    border-radius: 25px;
+    border: 0px;
+  }
+  
+.reset-button{
+    background-color : red;
+    color : white;
+    padding: 15px 32px;  
+    border-radius: 25px;
+    border: 0px;
+  }
