@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Open+Sans&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    color: aliceblue;
+}
+
+.main{
+    margin: auto;
+    width: 450px;
+    padding: 10px;
+    font-size: 30px;
+    transition-duration: 0.4s;
+}
+
+body{
+    background-image: url(https://wallpapercave.com/wp/PzOH4ir.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+text-align: center;
+font-size: 60px;
+}
+
+.buttons button{
+    background-color : rgb(52, 189, 52);
+    color : white;
+    border-radius: 20px;
+    border: 0px;
+    transition-duration: 0.4s;
+    text-shadow: 1px 1px #0f0101;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.buttons button:hover{
+    background-color : rgb(52, 150, 52);
+}
+
+.inputs input{
+    width: 300px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.buttons input{
+    width: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    border-radius: 20px;
+    font-size: 25px;
+    background: rgb(132, 204, 132);
+}
+
+.buttons{
+    padding-left: 100px;  
+}
+
+#result{
+    #text-align: center;
+}
