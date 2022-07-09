@@ -1,0 +1,63 @@
+body
+{
+    background:rgb(181, 228, 163);
+    padding:50px;
+}
+
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container 
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-gap: 8px;
+    padding: 8px;
+    width: 310px;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid black;  
+    background: grey;
+}
+
+.result
+{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+  
+input
+{
+    border: 1px solid black;
+    font-size: 2px;
+    border-radius: 15px;
+}
+
+.opp, .clear, .eq
+{
+    background: red;
+}
+
+.opp:hover, .clear:hover, .eq:hover
+{
+    background: rgb(180, 3, 3);
+}
+
+.num
+{
+    background:#f0c246;
+}
+
+.num:hover
+{
+    background:#b19037;
+}
+
+#char, #res{
+    text-align:center;
+    font-size:2em;
+    padding: 10px;  
+}
